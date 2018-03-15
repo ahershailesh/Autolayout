@@ -12,6 +12,10 @@
 		8AB85ED9205974E100107A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB85ED7205974E100107A29 /* Main.storyboard */; };
 		8AB85EDB205974E100107A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AB85EDA205974E100107A29 /* Assets.xcassets */; };
 		8AB85EDE205974E100107A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AB85EDC205974E100107A29 /* LaunchScreen.storyboard */; };
+		8AB85EE62059751700107A29 /* GenericNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB85EE52059751700107A29 /* GenericNoteView.swift */; };
+		8AB85EEA20597E0900107A29 /* NoteCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB85EE820597E0900107A29 /* NoteCellTableViewCell.swift */; };
+		8AB85EEB20597E0900107A29 /* NoteCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AB85EE920597E0900107A29 /* NoteCellTableViewCell.xib */; };
+		8AB85EED205A2A9F00107A29 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB85EEC205A2A9F00107A29 /* NoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8AB85EDA205974E100107A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AB85EDD205974E100107A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AB85EDF205974E100107A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB85EE52059751700107A29 /* GenericNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNoteView.swift; sourceTree = "<group>"; };
+		8AB85EE820597E0900107A29 /* NoteCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellTableViewCell.swift; sourceTree = "<group>"; };
+		8AB85EE920597E0900107A29 /* NoteCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCellTableViewCell.xib; sourceTree = "<group>"; };
+		8AB85EEC205A2A9F00107A29 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		8AB85ED2205974E100107A29 /* Autolayout */ = {
 			isa = PBXGroup;
 			children = (
+				8AB85EE72059751B00107A29 /* Note */,
 				8AB85ED3205974E100107A29 /* AppDelegate.swift */,
 				8AB85ED5205974E100107A29 /* ViewController.swift */,
 				8AB85ED7205974E100107A29 /* Main.storyboard */,
 				8AB85EDA205974E100107A29 /* Assets.xcassets */,
 				8AB85EDC205974E100107A29 /* LaunchScreen.storyboard */,
 				8AB85EDF205974E100107A29 /* Info.plist */,
+				8AB85EE820597E0900107A29 /* NoteCellTableViewCell.swift */,
+				8AB85EE920597E0900107A29 /* NoteCellTableViewCell.xib */,
 			);
 			path = Autolayout;
+			sourceTree = "<group>";
+		};
+		8AB85EE72059751B00107A29 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				8AB85EE52059751700107A29 /* GenericNoteView.swift */,
+				8AB85EEC205A2A9F00107A29 /* NoteModel.swift */,
+			);
+			path = Note;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 				8AB85EDE205974E100107A29 /* LaunchScreen.storyboard in Resources */,
 				8AB85EDB205974E100107A29 /* Assets.xcassets in Resources */,
 				8AB85ED9205974E100107A29 /* Main.storyboard in Resources */,
+				8AB85EEB20597E0900107A29 /* NoteCellTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB85EED205A2A9F00107A29 /* NoteModel.swift in Sources */,
 				8AB85ED6205974E100107A29 /* ViewController.swift in Sources */,
 				8AB85ED4205974E100107A29 /* AppDelegate.swift in Sources */,
+				8AB85EE62059751700107A29 /* GenericNoteView.swift in Sources */,
+				8AB85EEA20597E0900107A29 /* NoteCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
